@@ -12648,10 +12648,8 @@ if (typeof jQuery === 'undefined') {
       setTimeout(function(){
         $('.form--search').addClass('search-open');
        }, 50);
-      if($('.menu--mobile--toggle ._toggle').hasClass('open')){
-        $('.menu--mobile--toggle ._toggle').removeClass('open');
-        $('.menu--mobile--main').removeClass('open');
-      }
+      $('.menu--mobile--toggle ._toggle').removeClass('open');
+      $('.menu--mobile--main').removeClass('open');
       $('.menu--mobile--toggle ._toggle').addClass('search-open');
     });
     
